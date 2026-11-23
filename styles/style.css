@@ -1,0 +1,54 @@
+html, body, [data-testid="stAppViewContainer"], [data-testid="stMain"], .main, .block-container { direction: rtl !important; text-align: right !important; }
+.en, .ltr, .hero-label, .hero-tag, .logo, .small-muted { direction: ltr !important; text-align: center !important; unicode-bidi: isolate !important; }
+input, textarea, select, [data-testid="stSelectbox"], [data-testid="stNumberInput"] { direction: rtl !important; text-align: right !important; }
+label, p, h1, h2, h3, h4, span, div { text-align: right; }
+button { direction: rtl !important; text-align: center !important; }
+.topbar { display: flex !important; flex-direction: row !important; justify-content: space-between !important; align-items: center !important; padding: 12px 18px !important; background: #071223 !important; border-radius: 14px !important; margin-bottom: 12px !important; direction: rtl !important; }
+.topbar-right { display: flex !important; align-items: center !important; gap: 12px !important; }
+.logo { font-size: 32px !important; font-weight: 900 !important; letter-spacing: 4px !important; color: #f3d69e !important; line-height: 1 !important; margin: 0 !important; }
+.small-muted { opacity: .6 !important; font-size: 10px !important; letter-spacing: 2px !important; margin: 0 !important; }
+.nav-text { font-weight: 800 !important; font-size: 15px !important; text-align: left !important; }
+.hero { border-radius: 20px !important; padding: 28px 26px !important; min-height: 220px !important; display: flex !important; align-items: center !important; justify-content: flex-start !important; direction: rtl !important; text-align: right !important; position: relative !important; overflow: hidden !important; }
+.hero-content { width: 100% !important; max-width: 650px !important; text-align: right !important; direction: rtl !important; display: flex !important; flex-direction: column !important; align-items: flex-start !important; gap: 8px !important; }
+.hero-label { background: rgba(0,0,0,.45) !important; padding: 5px 10px !important; border-radius: 20px !important; color: #f3d69e !important; font-weight: 700 !important; font-size: 11px !important; letter-spacing: 1px !important; }
+.hero h1 { font-size: 44px !important; font-weight: 900 !important; margin: 2px 0 !important; color: white !important; text-align: right !important; line-height: 1.1 !important; text-shadow: 0 2px 12px rgba(0,0,0,.7) !important; }
+.hero p { font-size: 16px !important; line-height: 1.7 !important; margin: 0 !important; color: #fff !important; text-align: right !important; text-shadow: 0 1px 8px rgba(0,0,0,.8) !important; }
+.hero-tag { background: #f3d69e !important; color: #111 !important; padding: 7px 14px !important; border-radius: 20px !important; font-weight: 800 !important; font-size: 12px !important; margin-top: 6px !important; }
+.section-heading { font-size: 20px !important; font-weight: 900 !important; margin: 22px 0 12px 0 !important; text-align: right !important; }
+.panel { background: #0f1e33 !important; border: 1px solid #22344a !important; border-radius: 14px !important; overflow: hidden !important; }
+.panel-header { display: flex !important; justify-content: space-between !important; padding: 12px 14px !important; background: #13263f !important; font-weight: 800 !important; }
+.deal-image { width: 100% !important; height: 140px !important; object-fit: cover !important; }
+.deal-body { padding: 12px 14px !important; }
+.deal-row { display: flex !important; justify-content: space-between !important; padding: 6px 0 !important; border-bottom: 1px solid #1c2f4a !important; font-size: 13px !important; text-align: right !important; }
+.cart-box { background: #0f1e33 !important; border: 1px solid #22344a !important; border-radius: 14px !important; padding: 14px !important; }
+.cart-total { font-weight: 900 !important; font-size: 16px !important; margin-top: 10px !important; text-align: right !important; }
+.status-box { padding: 12px 14px !important; background: #0f1e33 !important; border: 1px solid #22344a !important; border-radius: 14px !important; margin-top: 10px !important; }
+.status-value { font-weight: 800 !important; color: #48c99a !important; }
+.result-box { background: #0f1e33 !important; border: 1px solid #22344a !important; border-radius: 14px !important; padding: 14px !important; margin-top: 10px !important; text-align: center !important; }
+.result-price { font-size: 22px !important; font-weight: 900 !important; color: #f3d69e !important; }
+.msg-seller, .msg-buyer, .msg-manager, .msg-user { padding: 12px 14px !important; border-radius: 12px !important; margin: 8px 0 !important; line-height: 1.8 !important; font-size: 14px !important; text-align: right !important; direction: rtl !important; }
+.msg-seller { background: #1a2a1a !important; border: 1px solid #2a4a2a !important; }
+.msg-buyer { background: #1a2333 !important; border: 1px solid #2a4a6a !important; }
+.msg-manager { background: #2a2210 !important; border: 1px solid #5a4a1a !important; }
+.msg-user { background: #3a1a4a !important; border: 1px solid #7a2a9a !important; }
+.msg-head { font-weight: 900 !important; margin-bottom: 6px !important; font-size: 13px !important; text-align: right !important; }
+.msg-text { white-space: pre-wrap !important; text-align: right !important; direction: rtl !important; }
+.offer-badge { display: inline-block !important; background: #f3d69e !important; color: #111 !important; padding: 4px 10px !important; border-radius: 20px !important; font-weight: 800 !important; font-size: 12px !important; margin-top: 8px !important; }
+.user-participate { font-weight: 900 !important; margin: 14px 0 8px 0 !important; font-size: 15px !important; text-align: right !important; }
+.big-buttons-label { font-weight: 900 !important; margin: 10px 0 !important; }
+.footer { text-align: center !important; opacity: .5 !important; font-size: 12px !important; margin-top: 30px !important; }
+.deal-success-box { background: linear-gradient(135deg,#0d2a1e,#13202f) !important; border: 2px solid #48c99a !important; border-radius: 18px !important; padding: 24px !important; margin: 20px 0 !important; text-align: center !important; direction: rtl !important; }
+.deal-success-title { font-size: 24px !important; font-weight: 900 !important; color: #48c99a !important; margin-bottom: 6px !important; text-align: center !important; }
+.deal-success-sub { opacity: .8 !important; margin-bottom: 14px !important; text-align: center !important; }
+.deal-success-price { font-size: 38px !important; font-weight: 900 !important; color: #f3d69e !important; margin: 8px 0 4px 0 !important; text-align: center !important; }
+.deal-success-detail { opacity: .8 !important; margin-bottom: 16px !important; text-align: center !important; }
+.deal-success-grid { display: grid !important; grid-template-columns: 1fr 1fr !important; gap: 10px !important; margin: 14px 0 !important; text-align: right !important; }
+.deal-success-grid > div { background: #0a1628 !important; border-radius: 10px !important; padding: 12px !important; display: flex !important; flex-direction: column !important; gap: 4px !important; }
+.deal-success-cart { text-align: right !important; background: #0a1628 !important; border-radius: 10px !important; padding: 12px !important; margin: 10px 0 !important; }
+.deal-success-note { background: #1a3a2a !important; padding: 10px !important; border-radius: 10px !important; margin-top: 10px !important; font-weight: 700 !important; text-align: center !important; }
+.deal-success-note2 { opacity: .7 !important; font-size: 13px !important; margin-top: 8px !important; text-align: center !important; }
+.deal-fail-box { background: #2a1212 !important; border: 2px solid #ff6b6b !important; border-radius: 16px !important; padding: 20px !important; margin: 20px 0 !important; text-align: center !important; direction: rtl !important; }
+.deal-fail-title { font-size: 22px !important; font-weight: 900 !important; color: #ff6b6b !important; margin-bottom: 8px !important; text-align: center !important; }
+[data-testid="stNumberInput"] input { direction: ltr !important; text-align: center !important; font-size: 16px !important; font-weight: 800 !important; letter-spacing: 1px !important; font-family: monospace !important; }
+[data-testid="stNumberInput"] label { direction: rtl !important; text-align: right !important; font-weight: 700 !important; }
+[data-testid="stSlider"] { display: none !important; }
